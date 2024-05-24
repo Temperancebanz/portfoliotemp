@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(65, 56, 56)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2dada3;
+    color:fuchsia;
+
+}
+span{
+    color: #dd0cc1e1;
+}
+.menu{
+    margin-right: 60px;
+
+}
+.menu a{
+    margin-right: 30px;
+    color: mediumpurple;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.menu a:hover{
+    color:#7fa9d1e1;
+    padding: 5px;
+    border-bottom: 2px solid #7fa9d1e1;
+    border-top: 2px solid #7fa9d1e1;
+}
